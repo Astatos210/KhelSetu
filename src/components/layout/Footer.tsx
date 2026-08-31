@@ -42,10 +42,10 @@ export const Footer: React.FC = () => {
               Demo Personas
             </h4>
             <ul className="space-y-2 text-slate-400">
-              <li><Link to="/athlete/dashboard" className="hover:text-white transition-colors">Athlete: Aarav Joshi</Link></li>
-              <li><Link to="/organizer/dashboard" className="hover:text-white transition-colors">Organizer: Pune District Sports</Link></li>
-              <li><Link to="/verifier/dashboard" className="hover:text-white transition-colors">Verifier: Dr. Sunita Rao</Link></li>
-              <li><Link to="/scout/dashboard" className="hover:text-white transition-colors">Scout: Rajesh Kadam</Link></li>
+              <li><Link to="/athlete/dashboard" className="hover:text-white transition-colors">Athlete: Atharv Dere</Link></li>
+              <li><Link to="/organizer/dashboard" className="hover:text-white transition-colors">Organizer: Sanskruti Talmale</Link></li>
+              <li><Link to="/verifier/dashboard" className="hover:text-white transition-colors">Verifier: Dr. Nidhi Shende</Link></li>
+              <li><Link to="/scout/dashboard" className="hover:text-white transition-colors">Scout: Shubham Wankhede</Link></li>
               <li><Link to="/admin/dashboard" className="hover:text-white transition-colors">Admin: Governance Cell</Link></li>
             </ul>
           </div>
