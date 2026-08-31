@@ -91,7 +91,7 @@ export const LoginPage: React.FC = () => {
       <div className="text-center max-w-xl mx-auto mb-10">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#12355B]/10 text-[#12355B] text-xs font-semibold mb-3">
           <Sparkles className="w-3.5 h-3.5" />
-          One-Click Hackathon Access
+          One-Click Demo Access
         </div>
         <h1 className="text-3xl font-extrabold text-slate-900 font-['Outfit']">
           Select Your Demo Persona
