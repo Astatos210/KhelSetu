@@ -31,10 +31,10 @@ export const Navbar: React.FC = () => {
   const [roleDropdownOpen, setRoleDropdownOpen] = useState(false);
 
   const roles: { role: UserRole; label: string; desc: string }[] = [
-    { role: 'ATHLETE', label: 'Aarav Joshi (Athlete)', desc: 'Register for events & test movement' },
-    { role: 'ORGANIZER', label: 'Vikram Malhotra (Organizer)', desc: 'Manage events & submit results' },
-    { role: 'VERIFIER', label: 'Dr. Sunita Rao (Verifier)', desc: 'Independent review & approval' },
-    { role: 'SCOUT', label: 'Rajesh Kadam (Scout)', desc: 'Discover verified grassroots talent' },
+    { role: 'ATHLETE', label: 'Atharv Dere (Athlete)', desc: 'Register for events & test movement' },
+    { role: 'ORGANIZER', label: 'Sanskruti Talmale (Organizer)', desc: 'Manage events & submit results' },
+    { role: 'VERIFIER', label: 'Dr. Nidhi Shende (Verifier)', desc: 'Independent review & approval' },
+    { role: 'SCOUT', label: 'Shubham Wankhede (Scout)', desc: 'Discover verified grassroots talent' },
     { role: 'ADMIN', label: 'Platform Admin', desc: 'System governance & audit log' }
   ];
 
