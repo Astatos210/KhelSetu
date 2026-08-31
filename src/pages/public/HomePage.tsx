@@ -295,7 +295,7 @@ export const HomePage: React.FC = () => {
         </div>
       </section>
 
-      {/* 4. Hackathon Demo Callout Banner */}
+      {/* 4. Demo Callout Banner */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-gradient-to-r from-[#12355B] to-[#146C94] rounded-2xl p-8 text-white flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
           <div>
