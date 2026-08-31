@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --navy-900: #0a192f;
+    --navy-800: #12355B;
+    --navy-700: #1b497a;
+    --blue-600: #146C94;
+    --blue-500: #19A7CE;
+    --teal-500: #00A6A6;
+    --teal-600: #008484;
+    --green-600: #2E8B57;
+    --green-500: #3cb371;
+    --warning-500: #F59E0B;
+    --bg-light: #F6F9FC;
+    --card-bg: #FFFFFF;
+    --border-light: #E2E8F0;
+  }
+
+  body {
+    background-color: var(--bg-light);
+    color: #1e293b;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Glass & Card effects */
+.khel-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px -1px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.khel-card:hover {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+}
+
+.khel-badge-navy {
+  background-color: #e6f0fa;
+  color: #12355B;
+  border: 1px solid #bcd8f5;
+}
+
+.khel-badge-teal {
+  background-color: #e6f7f7;
+  color: #008484;
+  border: 1px solid #b2e7e7;
+}
+
+.khel-badge-green {
+  background-color: #ebf7f0;
+  color: #2E8B57;
+  border: 1px solid #bce6cf;
+}
+
+.khel-badge-warning {
+  background-color: #fffbeb;
+  color: #b45309;
+  border: 1px solid #fde68a;
+}
+
+.khel-badge-red {
+  background-color: #fef2f2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+}
