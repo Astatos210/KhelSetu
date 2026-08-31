@@ -7,15 +7,15 @@ import {
   FileCheck2,
   FolderLock,
   Layers,
-  LogOut,
+  
   Menu,
-  RotateCcw,
+  
   Search,
   ShieldCheck,
   Trophy,
   User,
   X,
-  Zap,
+  
   Activity
 } from 'lucide-react';
 import { useAuth } from '../../context/AuthContext';
@@ -24,7 +24,7 @@ import { RoleBadge } from '../common/Badge';
 import { Button } from '../common/Button';
 
 export const Navbar: React.FC = () => {
-  const { currentUser, currentRole, switchRole, resetDemoData } = useAuth();
+  const { currentUser, currentRole, switchRole } = useAuth();
   const location = useLocation();
   const navigate = useNavigate();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -102,38 +102,7 @@ export const Navbar: React.FC = () => {
 
   return (
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200">
-      {/* Top Demo Banner */}
-      <div className="bg-[#12355B] text-white px-4 py-1.5 text-xs">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <span className="bg-emerald-500 text-[10px] font-bold px-1.5 py-0.2 rounded text-slate-900 uppercase">
-              Hackathon MVP
-            </span>
-            <span className="hidden sm:inline text-slate-300">
-              Grassroots Sports Platform: Badminton Pilot
-            </span>
-          </div>
 
-          <div className="flex items-center gap-3">
-            <button
-              onClick={() => {
-                if (confirm('Reset store back to initial seed data?')) resetDemoData();
-              }}
-              className="inline-flex items-center gap-1 text-slate-300 hover:text-white transition-colors cursor-pointer"
-              title="Reset all demo records"
-            >
-              <RotateCcw className="w-3 h-3" />
-              <span className="hidden md:inline">Reset Demo Data</span>
-            </button>
-            <span className="text-slate-500">|</span>
-            <Link to="/verify/KS-PUN-2026-0814" className="text-amber-300 hover:underline">
-              Sample QR Verification
-            </Link>
-          </div>
-        </div>
-      </div>
-
-      {/* Main Navbar */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
