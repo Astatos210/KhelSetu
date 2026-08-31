@@ -182,7 +182,7 @@ export const Navbar: React.FC = () => {
                   <div className="absolute right-0 mt-2 w-72 rounded-2xl bg-white shadow-xl border border-slate-200 z-30 py-2 animate-in fade-in zoom-in-95 duration-150">
                     <div className="px-4 py-2 border-b border-slate-100">
                       <p className="text-[11px] font-bold uppercase tracking-wider text-slate-400">
-                        Switch Persona (Hackathon Test)
+                        Switch Persona
                       </p>
                     </div>
 
