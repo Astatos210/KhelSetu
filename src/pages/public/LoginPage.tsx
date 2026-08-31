@@ -24,7 +24,7 @@ export const LoginPage: React.FC = () => {
   }[] = [
     {
       role: 'ATHLETE',
-      name: 'Aarav Joshi',
+      name: 'Atharv Dere',
       email: 'athlete@demo.khelsetu.in',
       description: 'Grassroots badminton player. Can register for events, view credentials, and test squat movement.',
       avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&fit=crop&q=80',
@@ -33,7 +33,7 @@ export const LoginPage: React.FC = () => {
     },
     {
       role: 'ORGANIZER',
-      name: 'Vikram Malhotra',
+      name: 'Sanskruti Talmale',
       email: 'organizer@demo.khelsetu.in',
       description: 'Pune District Sports Academy. Can create tournaments, check in athletes, and submit match scores.',
       avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&fit=crop&q=80',
@@ -42,7 +42,7 @@ export const LoginPage: React.FC = () => {
     },
     {
       role: 'VERIFIER',
-      name: 'Dr. Sunita Rao',
+      name: 'Dr. Nidhi Shende',
       email: 'verifier@demo.khelsetu.in',
       description: 'State Badminton Technical Official. Can review submitted results, verify evidence, and issue QR achievements.',
       avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&fit=crop&q=80',
@@ -51,7 +51,7 @@ export const LoginPage: React.FC = () => {
     },
     {
       role: 'SCOUT',
-      name: 'Rajesh Kadam',
+      name: 'Shubham Wankhede',
       email: 'scout@demo.khelsetu.in',
       description: 'Western Zone Talent Scouting Network. Can search and filter verified athletes by district, wins, and movement.',
       avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&fit=crop&q=80',
