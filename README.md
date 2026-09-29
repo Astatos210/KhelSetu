@@ -88,10 +88,10 @@ python -m uvicorn app.main:app --reload --port 8000
 
 | Role | Demo Email | Name | Focus |
 |---|---|---|---|
-| **Athlete** | `athlete@demo.khelsetu.in` | Aarav Joshi | Pune district singles competitor |
-| **Organizer** | `organizer@demo.khelsetu.in` | Vikram Malhotra | Pune District Sports Academy director |
-| **Verifier** | `verifier@demo.khelsetu.in` | Dr. Sunita Rao | State Badminton Technical Official |
-| **Scout** | `scout@demo.khelsetu.in` | Rajesh Kadam | Western Zone Talent Scouting Network |
+| **Athlete** | `athlete@demo.khelsetu.in` | Atharv Dere | Pune district singles competitor |
+| **Organizer** | `organizer@demo.khelsetu.in` | Sanskruti Talmale | Pune District Sports Academy director |
+| **Verifier** | `verifier@demo.khelsetu.in` | Dr. Nidhi Shende | State Badminton Technical Official |
+| **Scout** | `scout@demo.khelsetu.in` | Shubham Wankhede | Western Zone Talent Scouting Network |
 | **Admin** | `admin@demo.khelsetu.in` | KhelSetu Admin | Governance and audit inspection |
 
 ---
